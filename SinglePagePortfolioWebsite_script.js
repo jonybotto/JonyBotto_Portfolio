@@ -19,7 +19,7 @@ function addRecommendation() {
 }
 
 function showPopup(bool) {
-    if (bool='true') {
+    if (bool=='true') {
       document.getElementById('popup').style.visibility = 'visible'
     } else {
       document.getElementById('popup').style.visibility = 'hidden'
